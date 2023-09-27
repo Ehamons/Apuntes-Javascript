@@ -1,0 +1,22 @@
+{
+  let nombre, apellido, edad, favsong, respuesta;
+
+  nombre = "Elkin";
+  apellido = "Hamón";
+  edad = 23;
+  favsong = "A reason to fight";
+  respuesta = true;
+
+  console.log(
+    "Hola, mi nombre es ",
+    nombre,
+    " ",
+    apellido,
+    "y tengo ",
+    edad,
+    " años, mi canción favorita es ",
+    favsong,
+    "y la respuesta es ",
+    respuesta
+  );
+}
