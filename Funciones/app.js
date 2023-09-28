@@ -34,8 +34,23 @@ console.log(sumar(23, 58));
 /* Hacen parte del ámbito local, es decir, sólo estarán  disponibles una vez se hayan creado. NO ANTES
 Las funciones expresadas nunca están disponibles antes de que se declaren */
 
-const despedir = function () {
-    return console.log("Muchas gracias por utilizar la App, hasta luego");
-}
+/*const nombreFuncion = function(parametros){}
+  código que desee ejecutar;
+}*/
 
-despedir()
+const despedir = function () {
+  return console.log("Muchas gracias por utilizar la App, hasta luego");
+};
+
+despedir();
+
+// Ejemplo: Crear una función
+
+const data_pet = function (nombre, edad) {
+  return "Hola, mi mascota es ", nombre, " y tiene", edad, " años";
+};
+
+data_pet("Toby", "4");
+data_pet("Luna", "12");
+
+mascota = data_pet
