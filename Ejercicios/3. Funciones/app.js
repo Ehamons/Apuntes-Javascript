@@ -1,4 +1,12 @@
-// Según lo anterior traiga un código que haga una función expresada para cada una de las siguientes operaciones
+//Ejercicio: Crear una funcion EXPRESADA que devuelva el nombre de ustedes, el nombre de sus mascotas y la edad de nosotros
+{
+  const owner_pet = function (nombre, age, pet_name) {
+    return `Hola, mi nombre es ${nombre}, tengo ${age} años y mi mascota se llama ${pet_name}`;
+  };
+
+  console.log(owner_pet("Elkin", 23, "Pecas"));
+}
+// Ejercicio: Según lo anterior traiga un código que haga una función expresada para cada una de las siguientes operaciones
 // 1. Suma
 // 2. Resta
 // 3. Multiplicación
@@ -45,8 +53,6 @@
   b = parseFloat(prompt());
   console.log(b);
 
-  
-  
   opcion == 1
     ? (resultado = sumar(a, b))
     : opcion == 2
@@ -57,25 +63,27 @@
     ? (resultado = dividir(a, b))
     : console.log("opción no válida");
 
-  //   switch (opcion) {
-  //     case opcion == 1:
-  //       resultado = sumar(a, b);
-  //       break;
-  //     case opcion == 2:
-  //       resultado = restar(a, b);
-  //       break;
-  //     case opcion == 3:
-  //       multiplicar(a, b);
-  //       resultado = multiplicar(a, b);
-  //       break;
-  //     case opcion == 4:
-  //       dividir(a, b);
-  //       resultado = dividir(a, b);
-  //       break;
-  //     default:
-  //       console.log("opción no válida");
-  //       break;
-  //   }
-
   console.log(resultado);
+}
+// document.open ()
+
+// Ejercicio: Según lo anterior haga un código que con funciones expresadas haga una función relacion(a, b) que a partir de dos números cumpla lo siguiente:
+/*
+  1. Si el primer número es mayor que el segundo, debe devolver 1.
+  2. Si el primer número es menor que el segundo, debe devolver -1.
+  3. Si ambos números son iguales, debe devolver un 0.*/
+
+{
+  let a, b, print;
+
+  alert("Bienvenido al comparador de números,  selecciona dos números: Si el primero es mayor que el segundo se retorna 1, si el segundo es mayor que el primero se retorna -1, si ambos son iguales se retorna cero")
+  a = parseFloat(prompt("Escriba el primer número"));
+  b = parseFloat(prompt("Escriba el segundo número"));
+
+  const comparador = function (a, b) {
+    a > b ? (print = 1) : a < b ? (print = -1) : (print = 0);
+    return print;
+  };
+
+  alert(comparador(a, b));
 }
