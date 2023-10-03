@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Liliana",
+    "apellido": "Herrera",
+    "edad": 32,
+    "contacto": {
+      "telefono": 321456798,
+      "correo": "llherrerap@unidistrital.edu.co"
+    },
+    "trabajo": true
+  },
+  {
+    "nombre": "Vanesa",
+    "apellido": "Lineros",
+    "edad": 21,
+    "contacto": {
+      "telefono": 321556798,
+      "correo": "lvanesa@unidistrital.edu.co"
+    },
+    "trabajo": true
+  },
+  {
+    "nombre": "Teresa",
+    "apellido": "Barrantes",
+    "edad": 63,
+    "contacto": {
+      "telefono": 321456738,
+      "correo": "bteresa@unidistrital.edu.co"
+    },
+    "trabajo": true
+  },
+  {
+    "nombre": "Andres",
+    "apellido": "Monroy",
+    "edad": 19,
+    "contacto": {
+      "telefono": 3214146798,
+      "correo": "mandres@unidistrital.edu.co"
+    },
+    "trabajo": true
+  }
+]
