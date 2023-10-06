@@ -62,7 +62,7 @@ si sólo queremos llamar al contenido dentro de la etiqueta usamos .innerText*/
 
 // Calculadora usando DOM
 {
-  /*
+/*
   // Se crea la variable resultado para guardar los resultados de las operaciones que realicemos
   let resultado;
   // Obtengo por medio del DOM y del ID los elementos para la calculadora

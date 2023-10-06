@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller Javascript</title>
+  </head>
+  <body>
+    <main>
+      <header><h1>Taller Javascript</h1></header>
+      <article>
+        <h4>
+          *Para mayor comodidad todas las secciones tienen una versión usando
+          DOM, los comandos que usan alert y prompts se encuentran comentados
+          para que no se activen automáticamente, pero pueden ser accedidos
+          desde el código*
+        </h4>
+        <section>
+          <h2>Variables y constantes</h2>
+          <ol>
+            <li>
+              Declaración de <strong>variables</strong>
+              <ol>
+                <li>
+                  Define una variable llamada <strong>nombre</strong> y pídele
+                  al usuario que ingrese su nombre
+                </li>
+                <li>
+                  Define una variable llamada <strong>edad</strong> y pidele al
+                  usuario que ingrese su edad
+                </li>
+                <li>
+                  Luego, muestra un mensaje alert y prompt para mostrar y pedir
+                  esta confirmación
+                </li>
+              </ol>
+            </li>
+            <li>
+              Declara una constante llamada PI y asígnale el valor de 3.1416.
+              Luego, calcula el área de un círculo utilizando esta constante y
+              muestra el resultado
+            </li>
+          </ol>
+          <fieldset>
+            <h3>1.</h3>
+            <form action="">
+              <label for="nombre">Ingrese su nombre: </label>
+              <input type="text" id="nombre" placeholder="John Doe" required />
+              <br />
+              <label for="edad">Ingrese su edad: </label>
+              <input type="number" id="edad" placeholder="26" required /> <br />
+              <input type="button" id="btn" value="Enviar" />
+            </form>
+            <p id="datos-usuario"></p>
+          </fieldset>
+          <fieldset>
+            <h3>2.</h3>
+            <form action="">
+              <label for="radio"
+                >Ingrese el radio del círculo a calcular:
+              </label>
+              <input type="number" id="radio" required />
+              <input type="button" id="area-button" value="Enviar" />
+            </form>
+            <p id="area-circulo"></p>
+          </fieldset>
+        </section>
+
+        <section>
+          <h2>Operadores</h2>
+          <ol>
+            <li>
+              Pide al usuario que ingrese dos números y realiza una operación
+              matemática (suma, resta, multiplicación o división) con ellos.
+              Muestra el resultado
+            </li>
+            <li>
+              Con los dos mismo números que pediste en el punto anterior, ¿como
+              podrias realizar la operacion de raiz cuadrada y de potencia?
+            </li>
+            <li>
+              Crea un programa que compare dos números ingresados por el usuario
+              y muestre si son
+            </li>
+          </ol>
+          <fieldset>
+            <h3>1. y 2.</h3>
+            <form>
+              <label for="op-num1">Ingrese el primer número: </label>
+              <input type="number" id="op-num1" placeholder="x" required1 />
+              <br />
+              <label for="op-num2">Ingrese el segundo número</label>
+              <input type="number" id="op-num2" placeholder="y" /> <br />
+              <input type="button" id="op-sumar" value="sumar" />
+              <input type="button" id="op-restar" value="restar" />
+              <input type="button" id="op-multiplicar" value="multiplicar" />
+              <input type="button" id="op-dividir" value="dividir" />
+              <input type="button" id="op-sqrt" value="sqrt x" />
+              <input type="button" id="op-elevar" value="x^y" />
+            </form>
+            <p id="op-resultado"></p>
+          </fieldset>
+          <fieldset>
+            <h3>3.</h3>
+          </fieldset>
+        </section>
+        <section>
+          <h2>Estructuras de control</h2>
+          <ol>
+            <li>
+              Genera un número aleatorio entre 1 y 100 con el metodo
+              Math.random() y permite al usuario adivinarlo. Proporciona pistas
+              (mayor o menor) y muestra cuántos intentos le llevó al usuario
+              adivinarlo.
+            </li>
+            <li>
+              Pide al usuario un número y muestra la tabla de multiplicar de ese
+              número del 1 al 10.
+            </li>
+          </ol>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+      </article>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
